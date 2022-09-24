@@ -1,0 +1,48 @@
+1663541469692	geckodriver	INFO	Listening on 127.0.0.1:61333
+1663541469696	geckodriver	INFO	Listening on 127.0.0.1:61337
+1663541470024	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61334" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/jh/v45bbtdx6dx_zmyj9g70x6vc0000gn/T/rust_mozprofilehppkLK"
+1663541470101	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61338" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/jh/v45bbtdx6dx_zmyj9g70x6vc0000gn/T/rust_mozprofiler2hkN5"
+1663541470716	Marionette	INFO	Marionette enabled
+1663541470792	Marionette	INFO	Listening on port 61349
+WebDriver BiDi listening on ws://localhost:61334
+Read port: 61349
+1663541471126	Marionette	INFO	Marionette enabled
+1663541471167	Marionette	INFO	Listening on port 61351
+WebDriver BiDi listening on ws://localhost:61338
+Read port: 61351
+1663541471515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663541471568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/jh/v45bbtdx6dx_zmyj9g70x6vc0000gn/T/rust_mozprofilehppkLK/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/jh/v45bbtdx6dx_zmyj9g70x6vc0000gn/T/rust_mozprofiler2hkN5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61334/devtools/browser/65fffdd8-ea6b-4556-851c-9e36a45a6eb8
+DevTools listening on ws://localhost:61338/devtools/browser/b45161c1-a5ee-4a75-8559-24032f971046
+1663541476592	Marionette	INFO	Stopped listening on port 61349
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1663541479539	Marionette	INFO	Stopped listening on port 61351
+JavaScript error: https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=meexYto0mAKr6PjyeE37ROc-We8, line 2: NS_ERROR_NOT_INITIALIZED: 
+1663978841088	geckodriver	INFO	Listening on 127.0.0.1:52599
+1663978841400	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52600" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/jh/v45bbtdx6dx_zmyj9g70x6vc0000gn/T/rust_mozprofileqRjRjq"
+1663978842845	Marionette	INFO	Marionette enabled
+1663978842905	Marionette	INFO	Listening on port 52617
+WebDriver BiDi listening on ws://localhost:52600
+Read port: 52617
+1663978843196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/jh/v45bbtdx6dx_zmyj9g70x6vc0000gn/T/rust_mozprofileqRjRjq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52600/devtools/browser/15ab7cac-6902-4680-81f6-c4cec80b8289
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1663978850421	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=meexYto0mAKr6PjyeE37ROc-We8:2:82613
+ajax@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=meexYto0mAKr6PjyeE37ROc-We8:2:78223
+n.ajax@https://admin-demo.nopcommerce.com/js/HomeIndex.Footer.scripts.js?v=p85S1lLwdXzndIrgTxy2jRef03c:86:4297
+t@https://admin-demo.nopcommerce.com/js/HomeIndex.Footer.scripts.js?v=p85S1lLwdXzndIrgTxy2jRef03c:92:42174
+initOnce@https://admin-demo.nopcommerce.com/js/HomeIndex.Footer.scripts.js?v=p85S1lLwdXzndIrgTxy2jRef03c:92:42576
+init@https://admin-demo.nopcommerce.com/js/HomeIndex.Footer.scripts.js?v=p85S1lLwdXzndIrgTxy2jRef03c:92:43224
+@https://admin-demo.nopcommerce.com/admin/:2517:46
+e@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=meexYto0mAKr6PjyeE37ROc-We8:2:30005
+Deferred/then/l/</t<@https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=meexYto0mAKr6PjyeE37ROc-We8:2:30307
