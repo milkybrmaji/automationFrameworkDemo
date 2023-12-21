@@ -19,3 +19,4 @@
 
 
 # update/commit from local repo while repo is not up to date
+# 2 update/commit from github
