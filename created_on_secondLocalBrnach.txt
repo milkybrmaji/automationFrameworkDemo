@@ -1,0 +1,20 @@
+I created this file on my local machine in a branch I created on my local machine called "second_local_branch"
+I am practicing my github skills
+I will push this branch to my remote repository using the git command "git push -u origin second_local_branch"
+
+The dash -u sign in the git command above tells git to establish a tracking connection
+the tracking connection allows git to follow the local branch and its related counter part that is in the remote
+repository. So when I am pulling and pushing commits, I don't have to specify from where or to where exactly that 
+I'm doing that action for.
+
+Example
+   Remote Branch  in   Origin/second_local_branch
+    - - - - - - -   - - - - - - - - - 
+  /               \                  /
+ /                  \ Pull request  /
+- - - - - - - - - - - - - - - - - - 
+Local branch 
+I can push my branch from my local machine to the remote space allowing other paticipants to contribute to my branch and
+show a history of my changes. I can also pull from the remote branch updating my local branch with any new changes anyone
+may have added. I can do this all while in my branch that I want to work with without having to specify exactly where I want
+to push my code to or pull from.
