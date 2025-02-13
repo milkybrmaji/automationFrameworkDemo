@@ -571,3 +571,68 @@
 2022-09-23 17:23:07,522: INFO: ************** Traveling to Customers Page **************
 2022-09-23 17:23:08,913: INFO: ************** Searching Customer by Email **************
 2022-09-23 17:23:14,351: INFO: ************** Searching Customer by Email Successful **************
+2025-02-13 13:58:03,102: INFO: ************** Test_001_Login **************
+2025-02-13 13:58:03,106: INFO: ************** Verifying Home Page Title **************
+2025-02-13 13:58:04,910: ERROR: ************** Home Page title has failed **************
+2025-02-13 13:58:07,111: INFO: ************** Verifying Login **************
+2025-02-13 13:58:10,154: ERROR: ************** Login title has failed **************
+2025-02-13 14:02:50,112: INFO: ************** Test_001_Login **************
+2025-02-13 14:02:50,175: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:02:51,140: INFO: ************** Home Page title has passed **************
+2025-02-13 14:02:54,264: INFO: ************** Verifying Login **************
+2025-02-13 14:02:58,456: ERROR: ************** Login title has failed **************
+2025-02-13 14:07:06,429: INFO: ************** Test_001_Login **************
+2025-02-13 14:07:06,458: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:07:07,840: INFO: ************** Home Page title has passed **************
+2025-02-13 14:07:09,958: INFO: ************** Verifying Login **************
+2025-02-13 14:07:11,983: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:07:12,682: ERROR: ************** Login title has failed **************
+2025-02-13 14:22:29,815: INFO: ************** Test_001_Login **************
+2025-02-13 14:22:29,847: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:22:30,851: INFO: ************** Home Page title has passed **************
+2025-02-13 14:22:32,979: INFO: ************** Verifying Login **************
+2025-02-13 14:22:35,003: ERROR: ************** Page did not load within timeout **************
+2025-02-13 14:22:35,012: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:22:35,644: ERROR: ************** Login title has failed **************
+2025-02-13 14:23:16,564: INFO: ************** Test_001_Login **************
+2025-02-13 14:23:16,580: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:23:17,651: INFO: ************** Home Page title has passed **************
+2025-02-13 14:23:19,785: INFO: ************** Verifying Login **************
+2025-02-13 14:23:21,857: ERROR: ************** Page did not load within timeout **************
+2025-02-13 14:23:21,866: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:23:22,477: ERROR: ************** Login title has failed **************
+2025-02-13 14:25:32,372: INFO: ************** Test_001_Login **************
+2025-02-13 14:25:32,408: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:25:33,455: INFO: ************** Home Page title has passed **************
+2025-02-13 14:25:35,573: INFO: ************** Verifying Login **************
+2025-02-13 14:25:37,411: ERROR: ************** Page did not load within timeout **************
+2025-02-13 14:25:37,420: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:25:38,017: ERROR: ************** Login title has failed **************
+2025-02-13 14:28:31,639: INFO: ************** Test_001_Login **************
+2025-02-13 14:28:31,673: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:28:32,650: INFO: ************** Home Page title has passed **************
+2025-02-13 14:28:34,794: INFO: ************** Verifying Login **************
+2025-02-13 14:28:41,818: ERROR: ************** Page did not load within timeout **************
+2025-02-13 14:28:41,828: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:28:42,247: ERROR: ************** Login title has failed **************
+2025-02-13 14:29:06,972: INFO: ************** Test_001_Login **************
+2025-02-13 14:29:06,989: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:29:08,057: INFO: ************** Home Page title has passed **************
+2025-02-13 14:29:10,115: INFO: ************** Verifying Login **************
+2025-02-13 14:29:17,150: ERROR: ************** Page did not load within timeout **************
+2025-02-13 14:29:17,155: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:29:17,579: ERROR: ************** Login title has failed **************
+2025-02-13 14:31:31,797: INFO: ************** Test_001_Login **************
+2025-02-13 14:31:31,825: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:31:32,803: INFO: ************** Home Page title has passed **************
+2025-02-13 14:31:34,999: INFO: ************** Verifying Login **************
+2025-02-13 14:31:42,095: ERROR: ************** Page did not load within timeout **************
+2025-02-13 14:31:42,105: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:31:42,601: ERROR: ************** Login title has failed **************
+2025-02-13 14:31:59,093: INFO: ************** Test_001_Login **************
+2025-02-13 14:31:59,116: INFO: ************** Verifying Home Page Title **************
+2025-02-13 14:32:00,117: INFO: ************** Home Page title has passed **************
+2025-02-13 14:32:02,272: INFO: ************** Verifying Login **************
+2025-02-13 14:32:14,486: ERROR: ************** Page did not load within timeout **************
+2025-02-13 14:32:14,494: INFO: The title the webdriver retreived Just a moment...
+2025-02-13 14:32:15,308: ERROR: ************** Login title has failed **************

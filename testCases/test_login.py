@@ -1,6 +1,8 @@
 
 import pytest
 from selenium import webdriver 
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import logGen
@@ -26,7 +28,7 @@ class Test_001_Login:
         self.driver.get(self.baseURL)
         act_title = self.driver.title
         
-        if act_title == "Your store. Login":
+        if act_title == "nopCommerce demo store. Login":
             assert True
             self.driver.close()
             self.logger.info("************** Home Page title has passed **************")
@@ -47,8 +49,16 @@ class Test_001_Login:
         self.lp.setUserName(self.username)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
-    
+
+        try:
+            WebDriverWait(self.driver, 10).until(
+            EC.title_is("Dashboard / nopCommerce administration")  # Wait until title matches
+            )
+        except:
+            self.logger.error("************** Page did not load within timeout **************")
+
         act_title = self.driver.title
+        self.logger.info("The title the webdriver retreived "+act_title)
 
         if act_title == "Dashboard / nopCommerce administration":
             assert True
