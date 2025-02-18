@@ -4,6 +4,9 @@ __pycache__/
 *.pyo
 *.pyd
 
+#Test Data
+Screenshots/
+
 # Pytest
 .pytest_cache/
 
